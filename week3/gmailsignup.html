@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create a Google Account</title>
+  </head>
+  <body>
+    <header id="main-header">
+      <img src="logo.png" alt="Google" width="75" height="24" />
+      <h1>Create a Google Account</h1>
+      <p>Enter your name</p>
+    </header>
+
+    <main id="main-content">
+      <section class="signup-section">
+        <form action="#" method="post" id="signup-form">
+          <div>
+            <label for="firstName" class="screen-reader-text">First name</label>
+            <input
+              type="text"
+              id="firstName"
+              name="firstName"
+              placeholder="First name"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="lastName" class="screen-reader-text"
+              >Last name (optional)</label
+            >
+            <input
+              type="text"
+              id="lastName"
+              name="lastName"
+              placeholder="Last name (optional)"
+            />
+          </div>
+
+          <div>
+            <button type="submit">Next</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer id="main-footer">
+      <div class="footer-language">
+        <label for="language">Language</label>
+        <select id="language" name="language">
+          <option value="en" selected>English (United States)</option>
+          <option value="fr">Français</option>
+          <option value="es">Español</option>
+        </select>
+      </div>
+      <ul class="footer-links">
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
